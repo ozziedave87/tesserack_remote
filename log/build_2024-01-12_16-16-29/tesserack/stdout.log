@@ -1,0 +1,31 @@
+running egg_info
+creating build/tesserack/tesserack.egg-info
+writing build/tesserack/tesserack.egg-info/PKG-INFO
+writing dependency_links to build/tesserack/tesserack.egg-info/dependency_links.txt
+writing entry points to build/tesserack/tesserack.egg-info/entry_points.txt
+writing requirements to build/tesserack/tesserack.egg-info/requires.txt
+writing top-level names to build/tesserack/tesserack.egg-info/top_level.txt
+writing manifest file 'build/tesserack/tesserack.egg-info/SOURCES.txt'
+reading manifest file 'build/tesserack/tesserack.egg-info/SOURCES.txt'
+writing manifest file 'build/tesserack/tesserack.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/orangepi/ros2_ws/tesserack/build/tesserack/build
+creating /home/orangepi/ros2_ws/tesserack/build/tesserack/build/lib
+creating /home/orangepi/ros2_ws/tesserack/build/tesserack/build/lib/tesserack
+copying tesserack/__init__.py -> /home/orangepi/ros2_ws/tesserack/build/tesserack/build/lib/tesserack
+running install
+running install_lib
+creating /home/orangepi/ros2_ws/tesserack/install/tesserack/lib/python3.8/site-packages/tesserack
+copying /home/orangepi/ros2_ws/tesserack/build/tesserack/build/lib/tesserack/__init__.py -> /home/orangepi/ros2_ws/tesserack/install/tesserack/lib/python3.8/site-packages/tesserack
+byte-compiling /home/orangepi/ros2_ws/tesserack/install/tesserack/lib/python3.8/site-packages/tesserack/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/orangepi/ros2_ws/tesserack/install/tesserack/share/ament_index
+creating /home/orangepi/ros2_ws/tesserack/install/tesserack/share/ament_index/resource_index
+creating /home/orangepi/ros2_ws/tesserack/install/tesserack/share/ament_index/resource_index/packages
+copying resource/tesserack -> /home/orangepi/ros2_ws/tesserack/install/tesserack/share/ament_index/resource_index/packages
+copying package.xml -> /home/orangepi/ros2_ws/tesserack/install/tesserack/share/tesserack
+running install_egg_info
+Copying build/tesserack/tesserack.egg-info to /home/orangepi/ros2_ws/tesserack/install/tesserack/lib/python3.8/site-packages/tesserack-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/orangepi/ros2_ws/tesserack/build/tesserack/install.log'

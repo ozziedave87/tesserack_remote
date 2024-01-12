@@ -1,0 +1,56 @@
+[0.000000] (-) TimerEvent: {}
+[0.000409] (tesserack) JobQueued: {'identifier': 'tesserack', 'dependencies': OrderedDict()}
+[0.000629] (tesserack) JobStarted: {'identifier': 'tesserack'}
+[0.099930] (-) TimerEvent: {}
+[0.201527] (-) TimerEvent: {}
+[0.323947] (-) TimerEvent: {}
+[0.424915] (-) TimerEvent: {}
+[0.525600] (-) TimerEvent: {}
+[0.628300] (-) TimerEvent: {}
+[0.731513] (-) TimerEvent: {}
+[0.833292] (-) TimerEvent: {}
+[0.934059] (-) TimerEvent: {}
+[1.034811] (-) TimerEvent: {}
+[1.135722] (-) TimerEvent: {}
+[1.236489] (-) TimerEvent: {}
+[1.337285] (-) TimerEvent: {}
+[1.346423] (tesserack) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/tesserack', 'build', '--build-base', '/home/orangepi/ros2_ws/tesserack/build/tesserack/build', 'install', '--record', '/home/orangepi/ros2_ws/tesserack/build/tesserack/install.log', '--install-scripts', '$base/lib/tesserack', '--single-version-externally-managed'], 'cwd': '/home/orangepi/ros2_ws/tesserack', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'UMS_MOUNTPOINT': '/mnt/ums', 'GST_V4L2_PREFERRED_FOURCC': 'NV12:YU12:NV16:YUY2', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'orangepi', 'SSH_CLIENT': '140.253.50.20 62540 22', 'SSH_AGENT_PID': '7623', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/orangepi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'USB_FUNCS': 'adb', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/orangepi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/orangepi', 'OLDPWD': '/home/orangepi/ros2_ws', 'TERM_PROGRAM_VERSION': '1.85.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-743aafe1-e5df-4cee-b92c-727cbdb01747.sock', 'GST_INSPECT_NO_COLORS': '1', 'GST_MPP_NO_RGA': '1', 'ROS_PYTHON_VERSION': '3', 'COGL_DRIVER': 'gles2', 'VSCODE_GIT_ASKPASS_MAIN': '/home/orangepi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/orangepi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/orangepi/ros2_ws/install', 'GST_V4L2SRC_MAX_RESOLUTION': '3840x2160', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'orangepi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GST_GL_API': 'gles2', 'XDG_SESSION_ID': '5', 'GST_VIDEO_CONVERT_PREFERRED_FORMAT': 'NV12:NV16:I420:YUY2', 'GST_V4L2SRC_RK_DEVICES': '_mainpath:_selfpath:_bypass:_scale', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/orangepi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/home/orangepi/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GST_GL_PLATFORM': 'egl', 'GST_DEBUG_NO_COLOR': '1', 'GST_V4L2SRC_DEFAULT_DEVICE': '/dev/video-camera0', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-a0400a3642.sock', 'TERM_PROGRAM': 'vscode', 'GST_V4L2_USE_LIBV4L2': '1', 'SSH_AUTH_SOCK': '/tmp/ssh-aAtCul9wNyLF/agent.7622', 'UMS_SIZE': '256M', 'AMENT_PREFIX_PATH': '/home/orangepi/ros2_ws/install/mkrVRS_controller:/opt/ros/foxy', 'LC_MESSAGES': 'en_US.UTF-8', 'SHELL': '/bin/bash', 'UMS_RO': '0', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'UMS_FSTYPE': 'vfat', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/orangepi/ros2_ws/tesserack/build/tesserack', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '140.253.50.20 62540 150.229.150.59 22', 'PYTHONPATH': '/home/orangepi/ros2_ws/tesserack/build/tesserack/prefix_override:/home/orangepi/ros2_ws/tesserack/install/tesserack/lib/python3.8/site-packages:/home/orangepi/ros2_ws/build/mkrVRS_controller:/home/orangepi/ros2_ws/install/mkrVRS_controller/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'UMS_MOUNT': '0', 'COLCON': '1', 'UMS_FILE': '/userdata/ums_shared.img'}, 'shell': False}
+[1.437623] (-) TimerEvent: {}
+[1.538534] (-) TimerEvent: {}
+[1.626593] (tesserack) StdoutLine: {'line': b'running egg_info\n'}
+[1.627771] (tesserack) StdoutLine: {'line': b'creating build/tesserack/tesserack.egg-info\n'}
+[1.628263] (tesserack) StdoutLine: {'line': b'writing build/tesserack/tesserack.egg-info/PKG-INFO\n'}
+[1.628668] (tesserack) StdoutLine: {'line': b'writing dependency_links to build/tesserack/tesserack.egg-info/dependency_links.txt\n'}
+[1.629032] (tesserack) StdoutLine: {'line': b'writing entry points to build/tesserack/tesserack.egg-info/entry_points.txt\n'}
+[1.629388] (tesserack) StdoutLine: {'line': b'writing requirements to build/tesserack/tesserack.egg-info/requires.txt\n'}
+[1.629745] (tesserack) StdoutLine: {'line': b'writing top-level names to build/tesserack/tesserack.egg-info/top_level.txt\n'}
+[1.631215] (tesserack) StdoutLine: {'line': b"writing manifest file 'build/tesserack/tesserack.egg-info/SOURCES.txt'\n"}
+[1.638707] (-) TimerEvent: {}
+[1.672393] (tesserack) StdoutLine: {'line': b"reading manifest file 'build/tesserack/tesserack.egg-info/SOURCES.txt'\n"}
+[1.673180] (tesserack) StdoutLine: {'line': b"writing manifest file 'build/tesserack/tesserack.egg-info/SOURCES.txt'\n"}
+[1.673776] (tesserack) StdoutLine: {'line': b'running build\n'}
+[1.674214] (tesserack) StdoutLine: {'line': b'running build_py\n'}
+[1.674621] (tesserack) StdoutLine: {'line': b'creating /home/orangepi/ros2_ws/tesserack/build/tesserack/build\n'}
+[1.675043] (tesserack) StdoutLine: {'line': b'creating /home/orangepi/ros2_ws/tesserack/build/tesserack/build/lib\n'}
+[1.675525] (tesserack) StdoutLine: {'line': b'creating /home/orangepi/ros2_ws/tesserack/build/tesserack/build/lib/tesserack\n'}
+[1.675929] (tesserack) StdoutLine: {'line': b'copying tesserack/__init__.py -> /home/orangepi/ros2_ws/tesserack/build/tesserack/build/lib/tesserack\n'}
+[1.676361] (tesserack) StdoutLine: {'line': b'running install\n'}
+[1.676782] (tesserack) StdoutLine: {'line': b'running install_lib\n'}
+[1.677176] (tesserack) StdoutLine: {'line': b'creating /home/orangepi/ros2_ws/tesserack/install/tesserack/lib/python3.8/site-packages/tesserack\n'}
+[1.677571] (tesserack) StdoutLine: {'line': b'copying /home/orangepi/ros2_ws/tesserack/build/tesserack/build/lib/tesserack/__init__.py -> /home/orangepi/ros2_ws/tesserack/install/tesserack/lib/python3.8/site-packages/tesserack\n'}
+[1.677971] (tesserack) StdoutLine: {'line': b'byte-compiling /home/orangepi/ros2_ws/tesserack/install/tesserack/lib/python3.8/site-packages/tesserack/__init__.py to __init__.cpython-38.pyc\n'}
+[1.678491] (tesserack) StdoutLine: {'line': b'running install_data\n'}
+[1.678956] (tesserack) StdoutLine: {'line': b'creating /home/orangepi/ros2_ws/tesserack/install/tesserack/share/ament_index\n'}
+[1.679395] (tesserack) StdoutLine: {'line': b'creating /home/orangepi/ros2_ws/tesserack/install/tesserack/share/ament_index/resource_index\n'}
+[1.679793] (tesserack) StdoutLine: {'line': b'creating /home/orangepi/ros2_ws/tesserack/install/tesserack/share/ament_index/resource_index/packages\n'}
+[1.680188] (tesserack) StdoutLine: {'line': b'copying resource/tesserack -> /home/orangepi/ros2_ws/tesserack/install/tesserack/share/ament_index/resource_index/packages\n'}
+[1.680581] (tesserack) StdoutLine: {'line': b'copying package.xml -> /home/orangepi/ros2_ws/tesserack/install/tesserack/share/tesserack\n'}
+[1.680970] (tesserack) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.681376] (tesserack) StdoutLine: {'line': b'Copying build/tesserack/tesserack.egg-info to /home/orangepi/ros2_ws/tesserack/install/tesserack/lib/python3.8/site-packages/tesserack-0.0.0-py3.8.egg-info\n'}
+[1.682464] (tesserack) StdoutLine: {'line': b'running install_scripts\n'}
+[1.704454] (tesserack) StdoutLine: {'line': b"writing list of installed files to '/home/orangepi/ros2_ws/tesserack/build/tesserack/install.log'\n"}
+[1.738905] (-) TimerEvent: {}
+[1.751470] (tesserack) CommandEnded: {'returncode': 0}
+[1.839011] (-) TimerEvent: {}
+[1.895099] (tesserack) JobEnded: {'identifier': 'tesserack', 'rc': 0}
+[1.896117] (-) EventReactorShutdown: {}

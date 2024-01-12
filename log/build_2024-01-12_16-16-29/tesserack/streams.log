@@ -1,0 +1,33 @@
+[1.349s] Invoking command in '/home/orangepi/ros2_ws/tesserack': PYTHONPATH=/home/orangepi/ros2_ws/tesserack/build/tesserack/prefix_override:/home/orangepi/ros2_ws/tesserack/install/tesserack/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/tesserack build --build-base /home/orangepi/ros2_ws/tesserack/build/tesserack/build install --record /home/orangepi/ros2_ws/tesserack/build/tesserack/install.log --install-scripts $base/lib/tesserack --single-version-externally-managed
+[1.627s] running egg_info
+[1.627s] creating build/tesserack/tesserack.egg-info
+[1.628s] writing build/tesserack/tesserack.egg-info/PKG-INFO
+[1.628s] writing dependency_links to build/tesserack/tesserack.egg-info/dependency_links.txt
+[1.629s] writing entry points to build/tesserack/tesserack.egg-info/entry_points.txt
+[1.629s] writing requirements to build/tesserack/tesserack.egg-info/requires.txt
+[1.629s] writing top-level names to build/tesserack/tesserack.egg-info/top_level.txt
+[1.631s] writing manifest file 'build/tesserack/tesserack.egg-info/SOURCES.txt'
+[1.672s] reading manifest file 'build/tesserack/tesserack.egg-info/SOURCES.txt'
+[1.673s] writing manifest file 'build/tesserack/tesserack.egg-info/SOURCES.txt'
+[1.673s] running build
+[1.674s] running build_py
+[1.674s] creating /home/orangepi/ros2_ws/tesserack/build/tesserack/build
+[1.675s] creating /home/orangepi/ros2_ws/tesserack/build/tesserack/build/lib
+[1.675s] creating /home/orangepi/ros2_ws/tesserack/build/tesserack/build/lib/tesserack
+[1.676s] copying tesserack/__init__.py -> /home/orangepi/ros2_ws/tesserack/build/tesserack/build/lib/tesserack
+[1.676s] running install
+[1.676s] running install_lib
+[1.677s] creating /home/orangepi/ros2_ws/tesserack/install/tesserack/lib/python3.8/site-packages/tesserack
+[1.677s] copying /home/orangepi/ros2_ws/tesserack/build/tesserack/build/lib/tesserack/__init__.py -> /home/orangepi/ros2_ws/tesserack/install/tesserack/lib/python3.8/site-packages/tesserack
+[1.678s] byte-compiling /home/orangepi/ros2_ws/tesserack/install/tesserack/lib/python3.8/site-packages/tesserack/__init__.py to __init__.cpython-38.pyc
+[1.678s] running install_data
+[1.679s] creating /home/orangepi/ros2_ws/tesserack/install/tesserack/share/ament_index
+[1.679s] creating /home/orangepi/ros2_ws/tesserack/install/tesserack/share/ament_index/resource_index
+[1.679s] creating /home/orangepi/ros2_ws/tesserack/install/tesserack/share/ament_index/resource_index/packages
+[1.680s] copying resource/tesserack -> /home/orangepi/ros2_ws/tesserack/install/tesserack/share/ament_index/resource_index/packages
+[1.680s] copying package.xml -> /home/orangepi/ros2_ws/tesserack/install/tesserack/share/tesserack
+[1.681s] running install_egg_info
+[1.681s] Copying build/tesserack/tesserack.egg-info to /home/orangepi/ros2_ws/tesserack/install/tesserack/lib/python3.8/site-packages/tesserack-0.0.0-py3.8.egg-info
+[1.682s] running install_scripts
+[1.704s] writing list of installed files to '/home/orangepi/ros2_ws/tesserack/build/tesserack/install.log'
+[1.752s] Invoked command in '/home/orangepi/ros2_ws/tesserack' returned '0': PYTHONPATH=/home/orangepi/ros2_ws/tesserack/build/tesserack/prefix_override:/home/orangepi/ros2_ws/tesserack/install/tesserack/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/tesserack build --build-base /home/orangepi/ros2_ws/tesserack/build/tesserack/build install --record /home/orangepi/ros2_ws/tesserack/build/tesserack/install.log --install-scripts $base/lib/tesserack --single-version-externally-managed
